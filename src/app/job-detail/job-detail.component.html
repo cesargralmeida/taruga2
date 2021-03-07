@@ -1,0 +1,9 @@
+<div *ngIf="job">
+    <h2>Assigned to: {{job.assignedPainter}}</h2>
+    <div><span>id: </span>{{job.id}}</div>
+    <div>
+      <label for="hero-name">Hero name: </label>
+      <input id="hero-name" [(ngModel)]="job.id" placeholder="Job id"/>
+    </div>
+    <button (click)="goBack()">go back</button>
+  </div>
